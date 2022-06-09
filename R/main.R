@@ -1,6 +1,16 @@
 #' @useDynLib aspline
 #' @importFrom Rcpp sourceCpp
 NULL
+
+# Suppress R CMD check note
+# This just imports a function from each of the packages
+# used in the vignette.
+#' @importFrom dplyr mutate
+#' @importFrom ggplot2 ggplot
+#' @importFrom mgcv gam
+#' @importFrom tidyr pivot_longer
+NULL
+
 #' Pipe operator
 #'
 #' @name %>%
@@ -9,6 +19,7 @@ NULL
 #' @export
 #' @importFrom magrittr %>%
 #' @usage lhs \%>\% rhs
+#' @return rhs(lhs)
 NULL
 #'
 #' Inverse the hessian and multiply it by the score

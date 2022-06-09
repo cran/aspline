@@ -1,13 +1,13 @@
-77bc25b0691515a588b39c4075f8dc9c *DESCRIPTION
-6af3f241f88f94bdb86533a36bbed4f3 *NAMESPACE
+ffc66163be8b2288b088db9ca2f4a0aa *DESCRIPTION
+fdc691cee1b5af8737aacc1147eabf93 *NAMESPACE
 8485edfb5db0bda39fcb16bf30f2f7ca *R/RcppExports.R
 5cde13ecbb6d7c3a428d1e09ffdaec28 *R/bandsolve.R
 52d3189ddbcad28e756b75963be4d7c4 *R/data.R
-c19ec131abc79a161783a9511e163098 *R/main.R
+e61b58c3ff2c9751d8e87b053714826d *R/main.R
 112bf935dddc706f2756afc1e5ed61bc *R/utility.R
 812dcd6dc4ecf93bd3dc1da84e91476a *R/zzz.R
 5b74a50be23880cb4437d95bbc896187 *README.md
-229044e165cbe248c55c9019f1957d99 *build/vignette.rds
+d9b334ebe5b7daa1eaa1c52aae9e3210 *build/vignette.rds
 cb444ffb52e9b32c584320264f58c543 *data/bladder.rda
 b52ae716d91c9d28d377aefc2fdee88f *data/coal.rda
 aee3ad4569ac59d24d8b9cb0935d9ea2 *data/fossil.rda
@@ -16,9 +16,9 @@ ef4e311045cd7a29af2274feecfdebe5 *data/helmet.rda
 221f2e0657f62abeaef2657765953d08 *data/montreal.rda
 ee1fc5bc784a69083778baaf5183c76b *data/nmr.rda
 6fff8d68ca323fa061066fa15742838b *data/titanium.rda
-e5ae8bf841fd324d5b8f8a8f1aaf4e27 *inst/doc/helmet_data_example.R
-aa7ba5a62812ff1defbaed920b3c192b *inst/doc/helmet_data_example.Rmd
-3a212e12f1b7f6cf88bcb64fa63654a4 *inst/doc/helmet_data_example.html
+91a3fa9228a645effbf8d33e60e61a19 *inst/doc/helmet_data_example.R
+71d5714b4f51d2579dd8f2a6c99a1c78 *inst/doc/helmet_data_example.Rmd
+b9fd4b46f87459848f1e9e4de0f01e39 *inst/doc/helmet_data_example.html
 913ee87c1215835f9389ba236bc1b898 *man/LDL.Rd
 2b7805a28ea87246349546eaa07e2179 *man/aspline.Rd
 10586a6bed9fa2ba5ce66f8e37cd27ed *man/band_weight.Rd
@@ -36,7 +36,7 @@ a27e5fd8d25092fad6336ed803b4f459 *man/hessian_solver.Rd
 c315c5b779851aaaf36c209109483a31 *man/mat2rot.Rd
 9a515e190753054529496a75587cc443 *man/montreal.Rd
 2b9c59634deae53295380b899fbe75ef *man/nmr.Rd
-4495c32ede1ed258a768ff2fae2a405a *man/pipe.Rd
+48d100a1d40fc18df8c5d4461b9eba81 *man/pipe.Rd
 6a719e89f328f4549b835f9d76f4c8c9 *man/rot2mat.Rd
 298fb97a7f11936060437ff1269e3c2e *man/titanium.Rd
 d90bacb62e3321d02ecc5852683b24d9 *man/weight_design_band.Rd
@@ -47,6 +47,4 @@ aa856485e473a163e097ca849581dcab *src/RcppExports.cpp
 efa9af92c3825557a8087429cdb210ca *src/band_weight.cpp
 c4e3a36ae609c75d323024476bb4166e *src/bandsolve_cpp.cpp
 f4db28a8e190f41fe78152368f2f28ef *src/weight_design_band.cpp
-eceabca84702e04cc9cdca81289a0fea *vignettes/helmet_a_spline.pdf
-aa7ba5a62812ff1defbaed920b3c192b *vignettes/helmet_data_example.Rmd
-9023e187f28f476bff68cee8db5e9b41 *vignettes/helmet_p_spline.pdf
+71d5714b4f51d2579dd8f2a6c99a1c78 *vignettes/helmet_data_example.Rmd

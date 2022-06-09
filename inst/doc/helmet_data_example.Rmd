@@ -24,6 +24,7 @@ library(aspline)
 library(ggplot2)
 library(dplyr)
 library(tidyr)
+library(mgcv)
 library(splines2)
 data(helmet)
 x <- helmet$x
@@ -53,7 +54,6 @@ ggplot2::ggplot() +
   ggplot2::ylab("") +
   ggplot2::xlab("")
 ```
-
 
 ## Fit P-Splines
 ```{r run-pspline}
